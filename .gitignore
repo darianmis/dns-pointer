@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Build output (DMGs belong on GitHub Releases, not in git)
+dist/
+*.dmg
+
+# Snapshot renders from -DNSRedirectSnapshotPath
+snapshots/
+
+# Secrets and signing material
+.env
+.env.*
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+notary*.json
