@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD00000000000000000000D1 /* DNSRedirectCore in Frameworks */ = {isa = PBXBuildFile; productRef = DD00000000000000000000E2 /* DNSRedirectCore */; };
+		DD00000000000000000000D2 /* DNSRedirectCore in Frameworks */ = {isa = PBXBuildFile; productRef = DD00000000000000000000E3 /* DNSRedirectCore */; };
+		DD00000000000000000000D3 /* dnsredirect-helper in Embed Helper */ = {isa = PBXBuildFile; fileRef = DD00000000000000000000B2 /* dnsredirect-helper */; };
+		DD00000000000000000000D4 /* DNSRedirectCore in Frameworks */ = {isa = PBXBuildFile; productRef = DD00000000000000000000E4 /* DNSRedirectCore */; };
+		DD00000000000000000000D5 /* DNS Redirect.app in Embed App */ = {isa = PBXBuildFile; fileRef = DD00000000000000000000B1 /* DNS Redirect.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD00000000000000000000F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD00000000000000000000A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD00000000000000000000C2;
+			remoteInfo = DNSRedirectHelper;
+		};
+		DD00000000000000000000F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD00000000000000000000A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD00000000000000000000C1;
+			remoteInfo = DNSRedirect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD00000000000000000000C6 /* Embed Helper */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				DD00000000000000000000D3 /* dnsredirect-helper in Embed Helper */,
+			);
+			name = "Embed Helper";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000000CD /* Embed App */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				DD00000000000000000000D5 /* DNS Redirect.app in Embed App */,
+			);
+			name = "Embed App";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD00000000000000000000B1 /* DNS Redirect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNS Redirect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD00000000000000000000B2 /* dnsredirect-helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dnsredirect-helper"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD00000000000000000000B3 /* DNSRedirectCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DNSRedirectCore; path = Packages/DNSRedirectCore; sourceTree = "<group>"; };
+		DD00000000000000000000B4 /* DNS Redirect Installer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DNS Redirect Installer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD00000000000000000000A3 /* DNSRedirect */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DNSRedirect;
+			sourceTree = "<group>";
+		};
+		DD00000000000000000000A4 /* DNSRedirectHelper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DNSRedirectHelper;
+			sourceTree = "<group>";
+		};
+		DD00000000000000000000A5 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DD00000000000000000000A6 /* DNSRedirectInstaller */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DNSRedirectInstaller;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD00000000000000000000C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD00000000000000000000D1 /* DNSRedirectCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000000C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD00000000000000000000D2 /* DNSRedirectCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000000CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD00000000000000000000D4 /* DNSRedirectCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD00000000000000000000A1 = {
+			isa = PBXGroup;
+			children = (
+				DD00000000000000000000A3 /* DNSRedirect */,
+				DD00000000000000000000A4 /* DNSRedirectHelper */,
+				DD00000000000000000000A6 /* DNSRedirectInstaller */,
+				DD00000000000000000000A5 /* Shared */,
+				DD00000000000000000000B3 /* DNSRedirectCore */,
+				DD00000000000000000000A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD00000000000000000000A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD00000000000000000000B1 /* DNS Redirect.app */,
+				DD00000000000000000000B2 /* dnsredirect-helper */,
+				DD00000000000000000000B4 /* DNS Redirect Installer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD00000000000000000000C1 /* DNSRedirect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD000000000000000000AA04 /* Build configuration list for PBXNativeTarget "DNSRedirect" */;
+			buildPhases = (
+				DD00000000000000000000C3 /* Sources */,
+				DD00000000000000000000C4 /* Frameworks */,
+				DD00000000000000000000C5 /* Resources */,
+				DD00000000000000000000C6 /* Embed Helper */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD00000000000000000000F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD00000000000000000000A3 /* DNSRedirect */,
+				DD00000000000000000000A5 /* Shared */,
+			);
+			name = DNSRedirect;
+			packageProductDependencies = (
+				DD00000000000000000000E2 /* DNSRedirectCore */,
+			);
+			productName = DNSRedirect;
+			productReference = DD00000000000000000000B1 /* DNS Redirect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD00000000000000000000C2 /* DNSRedirectHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD000000000000000000AA07 /* Build configuration list for PBXNativeTarget "DNSRedirectHelper" */;
+			buildPhases = (
+				DD00000000000000000000C7 /* Sources */,
+				DD00000000000000000000C8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD00000000000000000000A4 /* DNSRedirectHelper */,
+			);
+			name = DNSRedirectHelper;
+			packageProductDependencies = (
+				DD00000000000000000000E3 /* DNSRedirectCore */,
+			);
+			productName = "dnsredirect-helper";
+			productReference = DD00000000000000000000B2 /* dnsredirect-helper */;
+			productType = "com.apple.product-type.tool";
+		};
+		DD00000000000000000000C9 /* DNSRedirectInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD000000000000000000AA0A /* Build configuration list for PBXNativeTarget "DNSRedirectInstaller" */;
+			buildPhases = (
+				DD00000000000000000000CA /* Sources */,
+				DD00000000000000000000CB /* Frameworks */,
+				DD00000000000000000000CC /* Resources */,
+				DD00000000000000000000CD /* Embed App */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD00000000000000000000F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD00000000000000000000A6 /* DNSRedirectInstaller */,
+				DD00000000000000000000A5 /* Shared */,
+			);
+			name = DNSRedirectInstaller;
+			packageProductDependencies = (
+				DD00000000000000000000E4 /* DNSRedirectCore */,
+			);
+			productName = DNSRedirectInstaller;
+			productReference = DD00000000000000000000B4 /* DNS Redirect Installer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD00000000000000000000A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DD00000000000000000000C1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DD00000000000000000000C2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DD00000000000000000000C9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = DD000000000000000000AA01 /* Build configuration list for PBXProject "DNSRedirect" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD00000000000000000000A1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DD00000000000000000000E1 /* XCLocalSwiftPackageReference "Packages/DNSRedirectCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD00000000000000000000A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD00000000000000000000C1 /* DNSRedirect */,
+				DD00000000000000000000C2 /* DNSRedirectHelper */,
+				DD00000000000000000000C9 /* DNSRedirectInstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD00000000000000000000C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000000CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD00000000000000000000C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000000C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD00000000000000000000CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD00000000000000000000F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD00000000000000000000C2 /* DNSRedirectHelper */;
+			targetProxy = DD00000000000000000000F2 /* PBXContainerItemProxy */;
+		};
+		DD00000000000000000000F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD00000000000000000000C1 /* DNSRedirect */;
+			targetProxy = DD00000000000000000000F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD000000000000000000AA02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD000000000000000000AA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD000000000000000000AA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DNS Redirect";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "DNS Redirect uses the standard macOS administrator prompt to update /etc/hosts and /etc/resolver.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnsredirect.app;
+				PRODUCT_MODULE_NAME = DNSRedirect;
+				PRODUCT_NAME = "DNS Redirect";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		DD000000000000000000AA06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DNS Redirect";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "DNS Redirect uses the standard macOS administrator prompt to update /etc/hosts and /etc/resolver.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnsredirect.app;
+				PRODUCT_MODULE_NAME = DNSRedirect;
+				PRODUCT_NAME = "DNS Redirect";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		DD000000000000000000AA08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_HARDENED_RUNTIME = NO;
+				PRODUCT_NAME = "dnsredirect-helper";
+				PRODUCT_MODULE_NAME = DNSRedirectHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD000000000000000000AA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_HARDENED_RUNTIME = NO;
+				PRODUCT_NAME = "dnsredirect-helper";
+				PRODUCT_MODULE_NAME = DNSRedirectHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DD000000000000000000AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DNS Redirect Installer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "The installer uses the standard macOS administrator prompt to remove DNS changes made by DNS Redirect when uninstalling.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnsredirect.installer;
+				PRODUCT_MODULE_NAME = DNSRedirectInstaller;
+				PRODUCT_NAME = "DNS Redirect Installer";
+			};
+			name = Debug;
+		};
+		DD000000000000000000AA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "DNS Redirect Installer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "The installer uses the standard macOS administrator prompt to remove DNS changes made by DNS Redirect when uninstalling.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnsredirect.installer;
+				PRODUCT_MODULE_NAME = DNSRedirectInstaller;
+				PRODUCT_NAME = "DNS Redirect Installer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD000000000000000000AA01 /* Build configuration list for PBXProject "DNSRedirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD000000000000000000AA02 /* Debug */,
+				DD000000000000000000AA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD000000000000000000AA04 /* Build configuration list for PBXNativeTarget "DNSRedirect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD000000000000000000AA05 /* Debug */,
+				DD000000000000000000AA06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD000000000000000000AA07 /* Build configuration list for PBXNativeTarget "DNSRedirectHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD000000000000000000AA08 /* Debug */,
+				DD000000000000000000AA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD000000000000000000AA0A /* Build configuration list for PBXNativeTarget "DNSRedirectInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD000000000000000000AA0B /* Debug */,
+				DD000000000000000000AA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DD00000000000000000000E1 /* XCLocalSwiftPackageReference "Packages/DNSRedirectCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DNSRedirectCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD00000000000000000000E2 /* DNSRedirectCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DNSRedirectCore;
+		};
+		DD00000000000000000000E3 /* DNSRedirectCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DNSRedirectCore;
+		};
+		DD00000000000000000000E4 /* DNSRedirectCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DNSRedirectCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DD00000000000000000000A0 /* Project object */;
+}
